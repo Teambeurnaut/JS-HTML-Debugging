@@ -1,5 +1,5 @@
 # JS-HTML-Debugging
-The idea of this program is that you don't need the console anymore, just a &lt;p> tag, &lt;hx> tag or whatever you like. 
+The idea of this program is that you don't need the console anymore, just a &lt;p> tag, &lt;h1> tag or whatever you like. 
 
 ## How to use
 The file contains a shortcut `function geti(s) { ... } ` which is for `document.getElementById() { ... } ` and an object `Debugger() { ... } `.
