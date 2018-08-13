@@ -4,7 +4,7 @@ function geti(s) {
 
 function Debugger(elem, colours) {
 	this.elem = elem;
-	this.colours = ["#FF8888", "#8888FF"];
+	this.colours = ["#CC2222", "#2222CC"];
 	if(colours) {
 		this.colours = colours;
 	}
@@ -41,9 +41,9 @@ function Debugger(elem, colours) {
 	}
 	this.addType = function(t) {
 		if(t === "log") {
-			this.elem.innerHTML += "<span style='color: " + this.colours[0] + ";'>LOG</span>";
+			this.elem.innerHTML += "<span style='color: " + this.colours[0] + ";'>[LOG]: </span>";
 		} else if(t === "error") {
-			this.elem.innerHTML += "<span style='color: " + this.colours[1] + ";'>LOG</span>";
+			this.elem.innerHTML += "<span style='color: " + this.colours[1] + ";'>[ERROR]: </span>";
 		}
 	}
 }
