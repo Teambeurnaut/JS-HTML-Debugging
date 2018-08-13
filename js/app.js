@@ -4,7 +4,7 @@ function geti(s) {
 
 function Debugger(elem, colours) {
 	this.elem = elem;
-	this.colours = ["#CC2222", "#2222CC"];
+	this.colours = ["#2222CC", "#CC2222"];
 	if(colours) {
 		this.colours = colours;
 	}
