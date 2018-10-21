@@ -9,7 +9,6 @@ function Debugger(elem, colours) {
 		this.colours = colours;
 	}
 	
-	
 	this.clear = function() {
 		this.elem.innerHTML = "";
 	}
